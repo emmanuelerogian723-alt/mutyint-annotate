@@ -1,0 +1,3 @@
+FROM heartexlabs/label-studio:latest
+ENV LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK=true
+EXPOSE 8080
